@@ -4,12 +4,11 @@
             "name": "Linux",
             "includePath": [
                 "include/",
-                "libs/libarom/include",
-                "libs/libbase/include",
+                "src/libs/libarom/include",
+                "src/libs/libbase/include",
                 "/home/utils/boost-1.80.0/gcc-9.3.0/include"
             ],
             "defines": [],
-            //"compilerPath": "/home/utils/gcc-9.3.0/bin/g++",
             "compilerPath": "/home/utils/gcc-11.2.0/bin/g++",
             "cStandard": "c17",
             "cppStandard": "c++20",
@@ -18,7 +17,8 @@
                 "-Wall",
                 "-Wextra",
                 "-Werror"
-            ]
+            ],
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4
