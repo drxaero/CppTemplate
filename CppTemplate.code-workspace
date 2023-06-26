@@ -1,7 +1,17 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	]
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+
+    "settings": {
+        "cmake.debugConfig": {
+           "MIMode": "gdb",
+            "miDebuggerPath": "/home/utils/gdb-12.1/bin/gdb",
+        },
+        "cmake.environment": {
+            "LD_LIBRARY_PATH": "/home/utils/gcc-11.2.0/lib64/"
+        }
+    }
 }
