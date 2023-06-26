@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 
-set(CMAKE_C_COMPILER /home/utils/gcc-11.2.0/bin/gcc)
-set(CMAKE_CXX_COMPILER /home/utils/gcc-11.2.0/bin/g++)
+set(CMAKE_C_COMPILER /home/utils/gcc-13.1.0/bin/gcc)
+set(CMAKE_CXX_COMPILER /home/utils/gcc-13.1.0/bin/g++)
 
 project(MyProj)
 

@@ -31,7 +31,7 @@
                 "environment": [
                     {
                         "name":"LD_LIBRARY_PATH",
-                        "value": "/home/utils/gcc-11.2.0/lib64/"
+                        "value": "/home/utils/gcc-13.1.0/lib64/"
                     }
                 ]
             }
