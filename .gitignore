@@ -47,3 +47,6 @@ build/*
 
 # Executable
 bin/*
+
+# VS Code C/CPP browser files
+.vscode/browse.vc.db*
