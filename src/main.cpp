@@ -8,10 +8,9 @@
 using namespace boost::multiprecision;
 
 
-int128_t boost_product(long long A, long long B)
+static auto boost_product(long long A, long long B)
 {
-    int128_t ans = (int128_t)A * B;
-    return ans;
+    return (int128_t)A * B;
 }
 
 int	main(void)

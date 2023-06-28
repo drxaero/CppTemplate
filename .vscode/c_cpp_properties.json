@@ -2,22 +2,7 @@
     "configurations": [
         {
             "name": "Linux",
-            "includePath": [
-                "include/",
-                "src/libs/libarom/include",
-                "src/libs/libbase/include",
-                "/home/utils/boost-1.80.0/gcc-9.3.0/include"
-            ],
             "defines": [],
-            "compilerPath": "/home/utils/gcc-11.2.0/bin/g++",
-            "cStandard": "c17",
-            "cppStandard": "c++20",
-            "intelliSenseMode": "linux-gcc-x64",
-            "compilerArgs": [
-                "-Wall",
-                "-Wextra",
-                "-Werror"
-            ],
             "configurationProvider": "ms-vscode.cmake-tools",
             "browse": {
                     "limitSymbolsToIncludedHeaders": true,
